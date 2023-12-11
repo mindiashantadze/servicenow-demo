@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>user</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set IP Address</name>
+        <order/>
+        <script><![CDATA[function onChange() {
+	g_form.addInfoMessage("works");
+	if (g_user.userID == g_form.getValue("user")) {
+		var GetIPAddress = new GlideAjax("GetUserIP");
+		GetIPAddress.addParam("sysparm_name", "getIpAddress");
+		GetIPAddress.getXML(ipFromScriptInclude);
+	} else {
+		g_form.clearValue("ip_address");
+	}
+
+    function ipFromScriptInclude(response) {
+        var ipFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.setReadOnly("ip_address", true);
+        g_form.clearValue("ip_address");
+        g_form.setValue("ip_address", ipFromScriptInclude);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-07 10:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a7fbc102fcff110a4f5cc96f699b606</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set IP Address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_script_client_0a7fbc102fcff110a4f5cc96f699b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-07 11:41:25</sys_updated_on>
+        <table>x_1122522_pfc_employee_info</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>PeopleForce Clone Manager Workspace Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:57:20</sys_created_on>
+        <sys_id>4a3ed33f187ab110fe70a6606ef5533a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PeopleForce Clone Manager Workspace Config</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_ux_app_config_4a3ed33f187ab110fe70a6606ef5533a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:57:20</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>sys_ux_app_config_4a3ed33f187ab110fe70a6606ef5533a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>PeopleForce Clone Manager Workspace Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:20</sys_created_on><sys_id>4a3ed33f187ab110fe70a6606ef5533a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PeopleForce Clone Manager Workspace Config</sys_name><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>sys_ux_app_config_4a3ed33f187ab110fe70a6606ef5533a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:20</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>-1564020006</payload_hash>
+        <record_name>PeopleForce Clone Manager Workspace Config</record_name>
+        <reverted_from/>
+        <source>3d44bc532f323110a4f5cc96f699b63e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-12-04 07:17:51</sys_created_on>
+        <sys_id>6e2da3fb2fbab110a4f5cc96f699b6a2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18c33b0c1180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Configuration</type>
+        <update_guid>2e2da3fb8fbab110ba0f4c74e07b86a2</update_guid>
+        <update_guid_history>2e2da3fb8fbab110ba0f4c74e07b86a2:-1564020006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 10:02:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>12696130a8434f6193c2912695f66509</sys_id>
+        <sys_metadata>4a3ed33f187ab110fe70a6606ef5533a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PeopleForce Clone Manager Workspace Config</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_4a3ed33f187ab110fe70a6606ef5533a</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_4a3ed33f187ab110fe70a6606ef5533a">6e2da3fb2fbab110a4f5cc96f699b6a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 10:02:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

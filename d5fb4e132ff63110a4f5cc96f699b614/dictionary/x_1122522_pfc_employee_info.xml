@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b50c42972f3a3110a4f5cc96f699b6fe" label="Employee Info" max_length="40" name="x_1122522_pfc_employee_info" text_index="true" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="IP Address" max_length="40" name="ip_address" type="string"/>
+        <element label="Is OOO" max_length="40" name="is_ooo" type="boolean"/>
+        <element default="0" label="Used AOE" max_length="40" name="remaining_aoe" read_only="true" type="integer"/>
+        <element default="0" label="Remaining PTO" max_length="40" name="remaining_pto" read_only="true" type="integer"/>
+        <element default="0" label="Used Sick Leave" max_length="40" name="remaining_sick_leave" read_only="true" type="integer"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

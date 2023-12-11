@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="904ed33f2f7ab110a4f5cc96f699b66e" sys_domain="global" table="x_1122522_pfc_employee_info" version="3" view="Workspace-PeopleForce-Clone-Manager-Workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>d44ed33f2f7ab110a4f5cc96f699b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_ooo</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>d84ed33f2f7ab110a4f5cc96f699b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>dc4ed33f2f7ab110a4f5cc96f699b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>d04ed33f2f7ab110a4f5cc96f699b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remaining_sick_leave</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>d44ed33f2f7ab110a4f5cc96f699b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remaining_aoe</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>944e573f2f7ab110a4f5cc96f699b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remaining_pto</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_id>984e573f2f7ab110a4f5cc96f699b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1122522_pfc_employee_info</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 08:57:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>904ed33f2f7ab110a4f5cc96f699b66e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1122522_pfc_employee_info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+            <sys_update_name>sys_ui_section_904ed33f2f7ab110a4f5cc96f699b66e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:57:27</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace PeopleForce Clone Manager Workspace 0" name="Workspace-PeopleForce-Clone-Manager-Workspace-0">4a3ed33f047ab110fe34e0e2a4c05236</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>sys_ui_section_904ed33f2f7ab110a4f5cc96f699b66e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="904ed33f2f7ab110a4f5cc96f699b66e" sys_domain="global" table="x_1122522_pfc_employee_info" version="3" view="Workspace-PeopleForce-Clone-Manager-Workspace-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>user</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>d44ed33f2f7ab110a4f5cc96f699b66f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>is_ooo</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>d84ed33f2f7ab110a4f5cc96f699b66f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>dc4ed33f2f7ab110a4f5cc96f699b66f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>d04ed33f2f7ab110a4f5cc96f699b670</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>remaining_sick_leave</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>d44ed33f2f7ab110a4f5cc96f699b670</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>remaining_aoe</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>944e573f2f7ab110a4f5cc96f699b6a0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>remaining_pto</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_id>984e573f2f7ab110a4f5cc96f699b6a0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="4a3ed33f047ab110fe34e0e2a4c05236">904ed33f2f7ab110a4f5cc96f699b66e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1122522_pfc_employee_info</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>904ed33f2f7ab110a4f5cc96f699b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1122522_pfc_employee_info</sys_name><sys_overrides/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>sys_ui_section_904ed33f2f7ab110a4f5cc96f699b66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:27</sys_updated_on><sys_user/><title>true</title><view display_value="Workspace PeopleForce Clone Manager Workspace 0" name="Workspace-PeopleForce-Clone-Manager-Workspace-0">4a3ed33f047ab110fe34e0e2a4c05236</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2034532217</payload_hash>
+        <record_name>Employee Info</record_name>
+        <reverted_from/>
+        <source>d5fb4e132ff63110a4f5cc96f699b616</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:01:57</sys_created_on>
+        <sys_id>c64f577f2f7ab110a4f5cc96f699b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3e5cc8160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:01:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>864f577ff37ab1106c7e8844e713b34c</update_guid>
+        <update_guid_history>864f577ff37ab1106c7e8844e713b34c:-2034532217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:01:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>924f1843dc3e4248a60ca1244f0506a9</sys_id>
+        <sys_metadata>904ed33f2f7ab110a4f5cc96f699b66e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1122522_pfc_employee_info</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent display_value="Employee Info">b50c42972f3a3110a4f5cc96f699b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>sys_ui_section_904ed33f2f7ab110a4f5cc96f699b66e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_904ed33f2f7ab110a4f5cc96f699b66e">c64f577f2f7ab110a4f5cc96f699b64c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:01:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

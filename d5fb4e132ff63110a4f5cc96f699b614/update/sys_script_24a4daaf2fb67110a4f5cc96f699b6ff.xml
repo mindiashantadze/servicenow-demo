@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1122522_pfc_employee_info</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Employee Info Validation</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+	var infoGr = new GlideRecord("x_1122522_pfc_employee_info");
+	var user;
+	if (current.isNewRecord()) {
+		user = current.user;
+	} else {
+		user = previous.user;
+	}
+	
+	infoGr.addQuery("user", user);
+	infoGr.query();
+	
+	if (infoGr.next() && current.isNewRecord()) {
+		gs.addErrorMessage("Info record already exists");
+		current.setAbortAction(true);
+	} else if (!current.isNewRecord() && current.user != previous.user) {
+		var existingEmployeesGR = new GlideRecord("x_1122522_pfc_employee_info");
+		existingEmployeesGR.addQuery("user", current.user);
+		existingEmployeesGR.query();
+		
+		gs.addInfoMessage(existingEmployeesGR.getRowCount());
+		
+		if (existingEmployeesGR.getRowCount() > 0) {
+			gs.addErrorMessage("Info record already exists");
+			current.setAbortAction(true);
+		}
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 10:28:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24a4daaf2fb67110a4f5cc96f699b6ff</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Employee Info Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_script_24a4daaf2fb67110a4f5cc96f699b6ff</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:42:44</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=24a4daaf2fb67110a4f5cc96f699b6ff"/>
+</record_update>

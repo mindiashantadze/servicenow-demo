@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="">0a3ed33fe97ab1107331ca656f383c34</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:57:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4a3ed33fc67ab110703f3f11a162eb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_ux_page_property_4a3ed33fc67ab110703f3f11a162eb34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:57:20</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1122522_pfc.0a3ed33fe97ab1107331ca656f383c34.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>sys_ux_page_property_4a3ed33fc67ab110703f3f11a162eb34</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="">0a3ed33fe97ab1107331ca656f383c34</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>4a3ed33fc67ab110703f3f11a162eb34</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>sys_ux_page_property_4a3ed33fc67ab110703f3f11a162eb34</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:20</sys_updated_on><type>json</type><unique_name>x_1122522_pfc.0a3ed33fe97ab1107331ca656f383c34.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1756399977</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source>3d44bc532f323110a4f5cc96f699b63e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-12-04 07:17:51</sys_created_on>
+        <sys_id>a1ae5f3f2f7ab110a4f5cc96f699b62e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18c33b0c1180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>61ae5f3f837ab110305c7c4d00f5812e</update_guid>
+        <update_guid_history>61ae5f3f837ab110305c7c4d00f5812e:-1756399977</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:59:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>14262042cf3241b684d4e51562c46f71</sys_id>
+        <sys_metadata>4a3ed33fc67ab110703f3f11a162eb34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_4a3ed33fc67ab110703f3f11a162eb34</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_4a3ed33fc67ab110703f3f11a162eb34">a1ae5f3f2f7ab110a4f5cc96f699b62e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:59:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

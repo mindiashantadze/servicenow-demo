@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">2d585763acfa7110f0814b453323fb4e</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"22.1.8","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Time Off","sourceType":"table","tableOrViewName":"x_1122522_pfc_time_off","id":"dGFibGV4XzExMjI1MjJfcGZjX3RpbWVfb2ZmMTcwMTg1MzUwNzkyMg==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Total Time Off Records","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzExMjI1MjJfcGZjX3RpbWVfb2ZmMTcwMTg1MzUwNzkyMg==","id":"ZEdGaWJHVjRYekV4TWpJMU1qSmZjR1pqWDNScGJXVmZiMlptTVRjd01UZzFNelV3TnpreU1nPT0xNzAxODUzNTA5Mzgx","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props>
+        <h>9</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 13:53:09</sys_created_on>
+        <sys_id>6158576366fa71102867e56a4e67bc4e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>par_dashboard_widget_6158576366fa71102867e56a4e67bc4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:06:30</sys_updated_on>
+        <visualization/>
+        <w>4</w>
+        <x>4</x>
+        <y>2</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>par_dashboard_widget_6158576366fa71102867e56a4e67bc4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">2d585763acfa7110f0814b453323fb4e</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"22.1.8","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Time Off","sourceType":"table","tableOrViewName":"x_1122522_pfc_time_off","id":"dGFibGV4XzExMjI1MjJfcGZjX3RpbWVfb2ZmMTcwMTg1MzUwNzkyMg==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Total Time Off Records","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzExMjI1MjJfcGZjX3RpbWVfb2ZmMTcwMTg1MzUwNzkyMg==","id":"ZEdGaWJHVjRYekV4TWpJMU1qSmZjR1pqWDNScGJXVmZiMlptTVRjd01UZzFNelV3TnpreU1nPT0xNzAxODUzNTA5Mzgx","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props><h>9</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 13:53:09</sys_created_on><sys_id>6158576366fa71102867e56a4e67bc4e</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>par_dashboard_widget_6158576366fa71102867e56a4e67bc4e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 09:06:30</sys_updated_on><visualization/><w>4</w><x>4</x><y>2</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>568203971</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d5fb4e132ff63110a4f5cc96f699b616</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:06:30</sys_created_on>
+        <sys_id>7450ef7f2f7ab110a4f5cc96f699b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3e60f4cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:06:30</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>bc50ef7f257ab110b6b62eb587c30969</update_guid>
+        <update_guid_history>bc50ef7f257ab110b6b62eb587c30969:568203971,3850ef7f9e7ab1105ed001843f56e268:-1549374641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">51baab7b2fbab110a4f5cc96f699b69b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:51:52</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>708512442f6f490ab8a618bf42a836d9</sys_id>
+        <sys_metadata>6158576366fa71102867e56a4e67bc4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_6158576366fa71102867e56a4e67bc4e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_6158576366fa71102867e56a4e67bc4e">7450ef7f2f7ab110a4f5cc96f699b66a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:51:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

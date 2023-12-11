@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="53925e9b2f3a3110a4f5cc96f699b696" extends="task" label="Time Off" max_length="40" name="x_1122522_pfc_time_off" text_index="true" type="collection">
+        <element label="From" max_length="40" name="from" type="glide_date"/>
+        <element label="Requested By" mandatory="true" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Time Off Description" max_length="120" name="time_off_description" type="string"/>
+        <element label="Time Off Duration" mandatory="true" max_length="24" name="time_off_duration" read_only="true" type="integer"/>
+        <element label="To" max_length="40" name="to" type="glide_date"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PTO" sequence="100" value="pto"/>
+                <element inactive_on_update="false" label="AOE" sequence="200" value="aoe"/>
+                <element inactive_on_update="false" label="Sick Leave" sequence="300" value="sick_leave"/>
+            </choice>
+        </element>
+    </element>
+</database>

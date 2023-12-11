@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Time Off Table">85681b632ffa7110a4f5cc96f699b61e</datasource>
+        <field>number</field>
+        <source>x_1122522_pfc_time_off</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 13:53:23</sys_created_on>
+        <sys_id>91681b632ffa7110a4f5cc96f699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1122522_pfc_time_off.number</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_91681b632ffa7110a4f5cc96f699b636</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:53:23</sys_updated_on>
+        <value>title</value>
+    </ais_datasource_field_attribute>
+</record_update>

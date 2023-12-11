@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">2d585763acfa7110f0814b453323fb4e</canvas>
+        <component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component_props>{"listTitle":null,"table":"x_1122522_pfc_time_off","query":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","columns":"","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props>
+        <h>15</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 13:53:09</sys_created_on>
+        <sys_id>25585763bbfa71109cdb167704633650</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>par_dashboard_widget_25585763bbfa71109cdb167704633650</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:53:13</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>16</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>par_dashboard_widget_25585763bbfa71109cdb167704633650</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">2d585763acfa7110f0814b453323fb4e</canvas><component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component><component_props>{"listTitle":null,"table":"x_1122522_pfc_time_off","query":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","columns":"","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props><h>15</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 13:53:09</sys_created_on><sys_id>25585763bbfa71109cdb167704633650</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>par_dashboard_widget_25585763bbfa71109cdb167704633650</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 13:53:13</sys_updated_on><visualization/><w>12</w><x>0</x><y>16</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-445269437</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d5fb4e132ff63110a4f5cc96f699b616</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 13:53:13</sys_created_on>
+        <sys_id>4f5897632ffa7110a4f5cc96f699b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3a4118840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:53:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>87589763bafa7110ef32db832f571c6a</update_guid>
+        <update_guid_history>87589763bafa7110ef32db832f571c6a:-445269437,4758976307fa71106e28b132886f3a69:2029570088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">99baab7b2fbab110a4f5cc96f699b696</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:51:52</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>10458abf24f24c10843b530517b4a2e4</sys_id>
+        <sys_metadata>25585763bbfa71109cdb167704633650</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_25585763bbfa71109cdb167704633650</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_25585763bbfa71109cdb167704633650">4f5897632ffa7110a4f5cc96f699b66a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:51:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

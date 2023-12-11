@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1122522_pfc.GetUserIP</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetUserIP</name>
+        <script><![CDATA[var GetUserIP = Class.create();
+GetUserIP.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getIpAddress: function() {
+		return gs.getSession().getClientIP();
+	},
+    type: 'GetUserIP'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-07 10:09:05</sys_created_on>
+        <sys_id>93e7fc582f8ff110a4f5cc96f699b6e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetUserIP</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_script_include_93e7fc582f8ff110a4f5cc96f699b6e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-07 10:16:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

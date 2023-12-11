@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1122522_pfc.time_off_user" name="x_1122522_pfc.time_off_user">87391e1f2f3a3110a4f5cc96f699b652</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-04 14:38:57</sys_created_on>
+        <sys_id>8b391e1f2f3a3110a4f5cc96f699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>87391e1f2f3a3110a4f5cc96f699b652</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8b391e1f2f3a3110a4f5cc96f699b653</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-04 14:38:57</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

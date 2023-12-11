@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">2d585763acfa7110f0814b453323fb4e</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-secondary","label":"My Work","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 13:53:08</sys_created_on>
+        <sys_id>e95857634ffa7110d371d90752ea5b54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>par_dashboard_widget_e95857634ffa7110d371d90752ea5b54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-05 13:53:08</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>par_dashboard_widget_e95857634ffa7110d371d90752ea5b54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">2d585763acfa7110f0814b453323fb4e</canvas><component display_value="">3a64f550256090d9578ede76158e899c</component><component_props>{"variant":"header-secondary","label":"My Work","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props><h>3</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 13:53:08</sys_created_on><sys_id>e95857634ffa7110d371d90752ea5b54</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>par_dashboard_widget_e95857634ffa7110d371d90752ea5b54</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 13:53:08</sys_updated_on><visualization/><w>12</w><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>734151523</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d44bc532f323110a4f5cc96f699b63e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-12-04 07:17:51</sys_created_on>
+        <sys_id>e5baab7b2fbab110a4f5cc96f699b6ac</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18c33b0c1180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>a5baab7b21bab110391bc42d6dbfd5ac</update_guid>
+        <update_guid_history>a5baab7b21bab110391bc42d6dbfd5ac:734151523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2dbaab7b2fbab110a4f5cc96f699b6ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:51:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>49e26115181943759f0358ff365ab4e9</sys_id>
+        <sys_metadata>e95857634ffa7110d371d90752ea5b54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e95857634ffa7110d371d90752ea5b54</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e95857634ffa7110d371d90752ea5b54">e5baab7b2fbab110a4f5cc96f699b6ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:51:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

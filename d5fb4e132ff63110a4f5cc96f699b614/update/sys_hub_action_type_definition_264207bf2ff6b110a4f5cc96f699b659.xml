@@ -1,0 +1,4076 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>update_employee_info_time_off</internal_name>
+        <label_cache>[{"name":"{{action.time_off_record}}","label":"action➛Time Off Record","type":"action","ref":"","reference_display":"Time Off","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employee_info}}","label":"action➛Employee Info","type":"action","ref":"","reference_display":"Employee Info","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employee_info.remaining_sick_leave}}","label":"action➛Employee Info➛Used Sick Leave","type":"action","ref":"","reference_display":"Used Sick Leave","base_type":"integer","parent_table_name":"x_1122522_pfc_employee_info","column_name":"remaining_sick_leave","choices":null,"attributes":{}},{"name":"{{action.employee_info.remaining_pto}}","label":"action➛Employee Info➛Remaining PTO","type":"action","ref":"","reference_display":"Remaining PTO","base_type":"integer","parent_table_name":"x_1122522_pfc_employee_info","column_name":"remaining_pto","choices":null,"attributes":{}},{"name":"{{action.employee_info.remaining_aoe}}","label":"action➛Employee Info➛Used AOE","type":"action","ref":"","reference_display":"Used AOE","base_type":"integer","parent_table_name":"x_1122522_pfc_employee_info","column_name":"remaining_aoe","choices":null,"attributes":{}},{"name":"{{action.time_off_record.type}}","label":"action➛Time Off Record➛Type","type":"action","ref":"","reference_display":"Type","base_type":"choice","parent_table_name":"x_1122522_pfc_time_off","column_name":"type","choices":[{"reference":false,"image":"","rawLabel":"-- None --","missing":false,"label":"-- None --","used":false,"value":"","selected":false},{"reference":false,"image":"","rawLabel":"PTO","missing":false,"label":"PTO","used":false,"value":"pto","parameters":{"name":"x_1122522_pfc_time_off"},"selected":false},{"reference":false,"image":"","rawLabel":"AOE","missing":false,"label":"AOE","used":false,"value":"aoe","parameters":{"name":"x_1122522_pfc_time_off"},"selected":false},{"reference":false,"image":"","rawLabel":"Sick Leave","missing":false,"label":"Sick Leave","used":false,"value":"sick_leave","parameters":{"name":"x_1122522_pfc_time_off"},"selected":false}],"attributes":{}},{"name":"{{action.time_off_record.calendar_duration}}","label":"action➛Time Off Record➛Duration","type":"action","ref":"","reference_display":"Duration","base_type":"glide_duration","parent_table_name":"x_1122522_pfc_time_off","column_name":"calendar_duration","choices":null,"attributes":{}},{"name":"{{action.time_off_record.time_off_duration}}","label":"action➛Time Off Record➛Time Off Duration","type":"action","ref":"","reference_display":"Time Off Duration","base_type":"integer","parent_table_name":"x_1122522_pfc_time_off","column_name":"time_off_duration","choices":null,"attributes":{}},{"name":"{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].remaining_pto}}","label":"step➛Script step➛Remaining PTO","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_aoe}}","label":"step➛Script step➛Used AOE","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_sick_leave}}","label":"step➛Script step➛Used Sick Leave","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>a8039fff2f3ab110a4f5cc96f699b658</master_snapshot>
+        <name>Get employee time off info</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 06:55:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>264207bf2ff6b110a4f5cc96f699b659</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Get employee time off info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_264207bf2ff6b110a4f5cc96f699b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=264207bf2ff6b110a4f5cc96f699b659"/>
+    <sys_variable_value action="delete_multiple" query="document_key=264207bf2ff6b110a4f5cc96f699b659"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>264207bf2ff6b110a4f5cc96f699b659</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>611413732f7ab110a4f5cc96f699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <value/>
+        <variable display_value="Used AOE">291413732f7ab110a4f5cc96f699b628</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>264207bf2ff6b110a4f5cc96f699b659</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>ad1413732f7ab110a4f5cc96f699b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <value/>
+        <variable display_value="Remaining PTO">e51413732f7ab110a4f5cc96f699b621</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>264207bf2ff6b110a4f5cc96f699b659</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>b55f833f2f3ab110a4f5cc96f699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">b95f833f2f3ab110a4f5cc96f699b68d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>264207bf2ff6b110a4f5cc96f699b659</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>e91413732f7ab110a4f5cc96f699b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <value/>
+        <variable display_value="Used Sick Leave">e11413732f7ab110a4f5cc96f699b62f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>264207bf2ff6b110a4f5cc96f699b659</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>f15f833f2f3ab110a4f5cc96f699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">b55f833f2f3ab110a4f5cc96f699b692</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=264207bf2ff6b110a4f5cc96f699b659"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>remaining_pto</field>
+        <id>264207bf2ff6b110a4f5cc96f699b659</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>691413732f7ab110a4f5cc96f699b635</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].remaining_pto}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>used_aoe</field>
+        <id>264207bf2ff6b110a4f5cc96f699b659</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>e11413732f7ab110a4f5cc96f699b635</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_aoe}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>used_sick_leave</field>
+        <id>264207bf2ff6b110a4f5cc96f699b659</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>a51413732f7ab110a4f5cc96f699b635</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_sick_leave}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>264207bf2ff6b110a4f5cc96f699b659</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>715f833f2f3ab110a4f5cc96f699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>264207bf2ff6b110a4f5cc96f699b659</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>bd5f833f2f3ab110a4f5cc96f699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=264207bf2ff6b110a4f5cc96f699b659^sys_idNOT IN795f833f2f3ab110a4f5cc96f699b688,7d5f833f2f3ab110a4f5cc96f699b683,8894c7b32f3ab110a4f5cc96f699b600,e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</action>
+        <cid>3b86f481-9cff-4f2c-bbbe-ee5cbd11bb55</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log sick leave</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>795f833f2f3ab110a4f5cc96f699b688</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=795f833f2f3ab110a4f5cc96f699b688"/>
+    <sys_element_mapping action="delete_multiple" query="id=795f833f2f3ab110a4f5cc96f699b688"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>795f833f2f3ab110a4f5cc96f699b688</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>b55f833f2f3ab110a4f5cc96f699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_sick_leave}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=795f833f2f3ab110a4f5cc96f699b688"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=795f833f2f3ab110a4f5cc96f699b688"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=795f833f2f3ab110a4f5cc96f699b688"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_795f833f2f3ab110a4f5cc96f699b688"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</action>
+        <cid>22b5d980-26e9-4e51-a694-5d0cc4178a21</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log used AOE</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>7d5f833f2f3ab110a4f5cc96f699b683</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7d5f833f2f3ab110a4f5cc96f699b683"/>
+    <sys_element_mapping action="delete_multiple" query="id=7d5f833f2f3ab110a4f5cc96f699b683"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>7d5f833f2f3ab110a4f5cc96f699b683</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>b95f833f2f3ab110a4f5cc96f699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_aoe}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7d5f833f2f3ab110a4f5cc96f699b683"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7d5f833f2f3ab110a4f5cc96f699b683"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d5f833f2f3ab110a4f5cc96f699b683"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7d5f833f2f3ab110a4f5cc96f699b683"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</action>
+        <cid>1c482d0c-b51d-4c0f-8edb-ef31df785f8a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>8894c7b32f3ab110a4f5cc96f699b600</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8894c7b32f3ab110a4f5cc96f699b600"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8894c7b32f3ab110a4f5cc96f699b600</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>4494c7b32f3ab110a4f5cc96f699b610</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:13</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var time_off_type = inputs.type;
+  var duration = inputs.duration;
+  
+  var remaining_pto = inputs.pto;
+  var used_aoe = inputs.aoe;
+  var used_sick_leave = inputs.sick_leave;
+  
+  outputs.remaining_pto = remaining_pto;
+  outputs.used_aoe = used_aoe;
+  outputs.used_sick_leave = used_sick_leave;
+  
+  if (time_off_type == "pto") {
+    outputs.remaining_pto = Number(remaining_pto) - Number(duration);
+  } else if (time_off_type == "aoe") {
+  	outputs.used_aoe = Number(used_aoe) + Number(duration);
+  } else if (time_off_type == "sick_leave") {
+  	outputs.used_sick_leave = Number(used_sick_leave) + Number(duration);
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8894c7b32f3ab110a4f5cc96f699b600</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>655f833f2f3ab110a4f5cc96f699b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <value/>
+        <variable display_value="">595f833f2f3ab110a4f5cc96f699b639</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8894c7b32f3ab110a4f5cc96f699b600</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>8c94c7b32f3ab110a4f5cc96f699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:13</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8894c7b32f3ab110a4f5cc96f699b600</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>a15f833f2f3ab110a4f5cc96f699b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <value/>
+        <variable display_value="">295f833f2f3ab110a4f5cc96f699b64b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8894c7b32f3ab110a4f5cc96f699b600</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:13</sys_created_on>
+        <sys_id>baf25fff2f3ab110a4f5cc96f699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="">b2f25fff2f3ab110a4f5cc96f699b673</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8894c7b32f3ab110a4f5cc96f699b600</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>ed5f833f2f3ab110a4f5cc96f699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <value/>
+        <variable display_value="">a15f833f2f3ab110a4f5cc96f699b649</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8894c7b32f3ab110a4f5cc96f699b600"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>aoe</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>a55f833f2f3ab110a4f5cc96f699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</table>
+        <value>{{action.employee_info.remaining_aoe}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>4494c7b32f3ab110a4f5cc96f699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>a55f833f2f3ab110a4f5cc96f699b678</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</table>
+        <value>{{action.time_off_record.time_off_duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pto</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>215f833f2f3ab110a4f5cc96f699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</table>
+        <value>{{action.employee_info.remaining_pto}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>0c94c7b32f3ab110a4f5cc96f699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sick_leave</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>6d5f833f2f3ab110a4f5cc96f699b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</table>
+        <value>{{action.employee_info.remaining_sick_leave}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>8894c7b32f3ab110a4f5cc96f699b600</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>e15f833f2f3ab110a4f5cc96f699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</table>
+        <value>{{action.time_off_record.type}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600^id=8894c7b32f3ab110a4f5cc96f699b600"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8894c7b32f3ab110a4f5cc96f699b600"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8894c7b32f3ab110a4f5cc96f699b600^sys_idNOT IN295f833f2f3ab110a4f5cc96f699b64b,595f833f2f3ab110a4f5cc96f699b639,a15f833f2f3ab110a4f5cc96f699b649,ad5f833f2f3ab110a4f5cc96f699b64d,b2f25fff2f3ab110a4f5cc96f699b673"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sick_leave</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>295f833f2f3ab110a4f5cc96f699b64b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:54:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pto</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:16</sys_created_on>
+        <sys_id>595f833f2f3ab110a4f5cc96f699b639</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:54:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>aoe</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:16</sys_created_on>
+        <sys_id>a15f833f2f3ab110a4f5cc96f699b649</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:54:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>ad5f833f2f3ab110a4f5cc96f699b64d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>400</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:12</sys_created_on>
+        <sys_id>b2f25fff2f3ab110a4f5cc96f699b673</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8894c7b32f3ab110a4f5cc96f699b600^sys_idNOT INa15f833f2f3ab110a4f5cc96f699b66c,a95f833f2f3ab110a4f5cc96f699b66f,ad5f833f2f3ab110a4f5cc96f699b667"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=b86f4ed5-70df-4eee-850b-e32be3fd681e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_aoe</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used AOE</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>a15f833f2f3ab110a4f5cc96f699b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=edcea9c9-efe6-4b9b-aadd-c4873e70bed3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_sick_leave</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used Sick Leave</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>a95f833f2f3ab110a4f5cc96f699b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=dbfa2b82-6806-44f5-b92b-962662a531e8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remaining_pto</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Remaining PTO</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8894c7b32f3ab110a4f5cc96f699b600</model>
+        <model_id>8894c7b32f3ab110a4f5cc96f699b600</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>ad5f833f2f3ab110a4f5cc96f699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8894c7b32f3ab110a4f5cc96f699b600"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600^sys_idNOT INe15f833f2f3ab110a4f5cc96f699b66b,e15f833f2f3ab110a4f5cc96f699b672,e95f833f2f3ab110a4f5cc96f699b66e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remaining_pto</element>
+        <help/>
+        <hint/>
+        <label>Remaining PTO</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>e15f833f2f3ab110a4f5cc96f699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_sick_leave</element>
+        <help/>
+        <hint/>
+        <label>Used Sick Leave</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>e15f833f2f3ab110a4f5cc96f699b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_aoe</element>
+        <help/>
+        <hint/>
+        <label>Used AOE</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8894c7b32f3ab110a4f5cc96f699b600</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>e95f833f2f3ab110a4f5cc96f699b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</action>
+        <cid>3a8dd204-b12d-4412-a9c2-69cd5b002505</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log PTO</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>e55f833f2f3ab110a4f5cc96f699b67d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_element_mapping action="delete_multiple" query="id=e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e55f833f2f3ab110a4f5cc96f699b67d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:17</sys_created_on>
+        <sys_id>2d5f833f2f3ab110a4f5cc96f699b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>Remaining PTO: {{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].remaining_pto}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e55f833f2f3ab110a4f5cc96f699b67d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=264207bf2ff6b110a4f5cc96f699b659^sys_idNOT IN84948f332f3ab110a4f5cc96f699b69b,8c9487b32f3ab110a4f5cc96f699b6f9"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e55af47b-6a7f-4aa9-9775-65d1858f04b3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1122522_pfc_time_off</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>time_off_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Time Off Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1122522_pfc_time_off">x_1122522_pfc_time_off</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:12</sys_created_on>
+        <sys_id>84948f332f3ab110a4f5cc96f699b69b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84948f332f3ab110a4f5cc96f699b69b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=bb398b1e-f15d-4517-a9db-648a4aa76731</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1122522_pfc_employee_info</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>employee_info</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Employee Info</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1122522_pfc_employee_info">x_1122522_pfc_employee_info</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:12</sys_created_on>
+        <sys_id>8c9487b32f3ab110a4f5cc96f699b6f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8c9487b32f3ab110a4f5cc96f699b6f9"/>
+    <sys_hub_action_output action="delete_multiple" query="model=264207bf2ff6b110a4f5cc96f699b659^sys_idNOT IN291413732f7ab110a4f5cc96f699b628,b55f833f2f3ab110a4f5cc96f699b692,b95f833f2f3ab110a4f5cc96f699b68d,e11413732f7ab110a4f5cc96f699b62f,e51413732f7ab110a4f5cc96f699b621"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f61fe25c-f4a0-4958-845f-18865d832d3d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_aoe</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used AOE</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>291413732f7ab110a4f5cc96f699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=291413732f7ab110a4f5cc96f699b628"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=291413732f7ab110a4f5cc96f699b628"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=509f10f5-306c-43fd-9266-a983137c0110,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>b55f833f2f3ab110a4f5cc96f699b692</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b55f833f2f3ab110a4f5cc96f699b692"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b55f833f2f3ab110a4f5cc96f699b692"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e1f0296e-7202-4da7-9940-fd17336cd554</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>b95f833f2f3ab110a4f5cc96f699b68d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b95f833f2f3ab110a4f5cc96f699b68d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b95f833f2f3ab110a4f5cc96f699b68d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=71f0b1b2-b98a-42bc-8364-13f4c032b4a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_sick_leave</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used Sick Leave</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>e11413732f7ab110a4f5cc96f699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e11413732f7ab110a4f5cc96f699b62f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e11413732f7ab110a4f5cc96f699b62f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=03468638-549e-4f0a-8fb5-0e3e5496df4a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remaining_pto</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Remaining PTO</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</model>
+        <model_id>264207bf2ff6b110a4f5cc96f699b659</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>e51413732f7ab110a4f5cc96f699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e51413732f7ab110a4f5cc96f699b621"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e51413732f7ab110a4f5cc96f699b621"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=264207bf2ff6b110a4f5cc96f699b659"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=264207bf2ff6b110a4f5cc96f699b659^sys_idNOT IN8094c7b32f3ab110a4f5cc96f699b614"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>8094c7b32f3ab110a4f5cc96f699b614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:13</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=8094c7b32f3ab110a4f5cc96f699b614"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_264207bf2ff6b110a4f5cc96f699b659^sys_idNOT IN849487b32f3ab110a4f5cc96f699b6fe,cc9487b32f3ab110a4f5cc96f699b6f8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>employee_info</element>
+        <help/>
+        <hint/>
+        <label>Employee Info</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:13</sys_created_on>
+        <sys_id>849487b32f3ab110a4f5cc96f699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>time_off_record</element>
+        <help/>
+        <hint/>
+        <label>Time Off Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:05:12</sys_created_on>
+        <sys_id>cc9487b32f3ab110a4f5cc96f699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:05:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_264207bf2ff6b110a4f5cc96f699b659"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659^sys_idNOT INa11413732f7ab110a4f5cc96f699b632,b55f833f2f3ab110a4f5cc96f699b697,e51413732f7ab110a4f5cc96f699b62b,ed1413732f7ab110a4f5cc96f699b624,f55f833f2f3ab110a4f5cc96f699b691"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_sick_leave</element>
+        <help/>
+        <hint/>
+        <label>Used Sick Leave</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>a11413732f7ab110a4f5cc96f699b632</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>b55f833f2f3ab110a4f5cc96f699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_aoe</element>
+        <help/>
+        <hint/>
+        <label>Used AOE</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>e51413732f7ab110a4f5cc96f699b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remaining_pto</element>
+        <help/>
+        <hint/>
+        <label>Remaining PTO</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:02</sys_created_on>
+        <sys_id>ed1413732f7ab110a4f5cc96f699b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:52:18</sys_created_on>
+        <sys_id>f55f833f2f3ab110a4f5cc96f699b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 07:52:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_264207bf2ff6b110a4f5cc96f699b659"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=264207bf2ff6b110a4f5cc96f699b659^sys_idNOT IN9503dfff2f3ab110a4f5cc96f699b677"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9503dfff2f3ab110a4f5cc96f699b677","name":"plan","plan_signature":null}}</plan>
+        <snapshot>224417732f7ab110a4f5cc96f699b6a0</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9503dfff2f3ab110a4f5cc96f699b677</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:58</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_employee_time_off_info</internal_name>
+        <label_cache>[{"name":"{{action.time_off_record}}","label":"action➛Time Off Record","type":"action","ref":"","reference_display":"Time Off","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employee_info}}","label":"action➛Employee Info","type":"action","ref":"","reference_display":"Employee Info","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employee_info.remaining_sick_leave}}","label":"action➛Employee Info➛Used Sick Leave","type":"action","ref":"","reference_display":"Used Sick Leave","base_type":"integer","parent_table_name":"x_1122522_pfc_employee_info","column_name":"remaining_sick_leave","choices":null,"attributes":{}},{"name":"{{action.employee_info.remaining_pto}}","label":"action➛Employee Info➛Remaining PTO","type":"action","ref":"","reference_display":"Remaining PTO","base_type":"integer","parent_table_name":"x_1122522_pfc_employee_info","column_name":"remaining_pto","choices":null,"attributes":{}},{"name":"{{action.employee_info.remaining_aoe}}","label":"action➛Employee Info➛Used AOE","type":"action","ref":"","reference_display":"Used AOE","base_type":"integer","parent_table_name":"x_1122522_pfc_employee_info","column_name":"remaining_aoe","choices":null,"attributes":{}},{"name":"{{action.time_off_record.type}}","label":"action➛Time Off Record➛Type","type":"action","ref":"","reference_display":"Type","base_type":"choice","parent_table_name":"x_1122522_pfc_time_off","column_name":"type","choices":[{"reference":false,"image":"","rawLabel":"-- None --","missing":false,"label":"-- None --","used":false,"value":"","selected":false},{"reference":false,"image":"","rawLabel":"PTO","missing":false,"label":"PTO","used":false,"value":"pto","parameters":{"name":"x_1122522_pfc_time_off"},"selected":false},{"reference":false,"image":"","rawLabel":"AOE","missing":false,"label":"AOE","used":false,"value":"aoe","parameters":{"name":"x_1122522_pfc_time_off"},"selected":false},{"reference":false,"image":"","rawLabel":"Sick Leave","missing":false,"label":"Sick Leave","used":false,"value":"sick_leave","parameters":{"name":"x_1122522_pfc_time_off"},"selected":false}],"attributes":{}},{"name":"{{action.time_off_record.calendar_duration}}","label":"action➛Time Off Record➛Duration","type":"action","ref":"","reference_display":"Duration","base_type":"glide_duration","parent_table_name":"x_1122522_pfc_time_off","column_name":"calendar_duration","choices":null,"attributes":{}},{"name":"{{action.time_off_record.time_off_duration}}","label":"action➛Time Off Record➛Time Off Duration","type":"action","ref":"","reference_display":"Time Off Duration","base_type":"integer","parent_table_name":"x_1122522_pfc_time_off","column_name":"time_off_duration","choices":null,"attributes":{}},{"name":"{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].remaining_pto}}","label":"step➛Script step➛Remaining PTO","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_aoe}}","label":"step➛Script step➛Used AOE","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_sick_leave}}","label":"step➛Script step➛Used Sick Leave","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Get employee time off info</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get employee time off info">264207bf2ff6b110a4f5cc96f699b659</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8039fff2f3ab110a4f5cc96f699b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8039fff2f3ab110a4f5cc96f699b658"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a8039fff2f3ab110a4f5cc96f699b658"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a8039fff2f3ab110a4f5cc96f699b658</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>224417732f7ab110a4f5cc96f699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <value/>
+        <variable display_value="Used Sick Leave">6a4417732f7ab110a4f5cc96f699b696</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a8039fff2f3ab110a4f5cc96f699b658</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>38039fff2f3ab110a4f5cc96f699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">b8039fff2f3ab110a4f5cc96f699b6e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a8039fff2f3ab110a4f5cc96f699b658</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>a64417732f7ab110a4f5cc96f699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <value/>
+        <variable display_value="Used AOE">2e4417732f7ab110a4f5cc96f699b68f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a8039fff2f3ab110a4f5cc96f699b658</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>e24417732f7ab110a4f5cc96f699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <value/>
+        <variable display_value="Remaining PTO">9a4417732f7ab110a4f5cc96f699b688</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a8039fff2f3ab110a4f5cc96f699b658</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>f8039fff2f3ab110a4f5cc96f699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">b0039fff2f3ab110a4f5cc96f699b6df</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a8039fff2f3ab110a4f5cc96f699b658"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>remaining_pto</field>
+        <id>a8039fff2f3ab110a4f5cc96f699b658</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>ae4417732f7ab110a4f5cc96f699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].remaining_pto}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>used_aoe</field>
+        <id>a8039fff2f3ab110a4f5cc96f699b658</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>2a4417732f7ab110a4f5cc96f699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_aoe}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>used_sick_leave</field>
+        <id>a8039fff2f3ab110a4f5cc96f699b658</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>ea4417732f7ab110a4f5cc96f699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_sick_leave}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>a8039fff2f3ab110a4f5cc96f699b658</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>fc039fff2f3ab110a4f5cc96f699b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>a8039fff2f3ab110a4f5cc96f699b658</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>3c039fff2f3ab110a4f5cc96f699b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a8039fff2f3ab110a4f5cc96f699b658^sys_idNOT IN38039fff2f3ab110a4f5cc96f699b6d0,70039fff2f3ab110a4f5cc96f699b6da,74039fff2f3ab110a4f5cc96f699b6d5,a4039fff2f3ab110a4f5cc96f699b668"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</action>
+        <cid>3a8dd204-b12d-4412-a9c2-69cd5b002505</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log PTO</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>38039fff2f3ab110a4f5cc96f699b6d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=38039fff2f3ab110a4f5cc96f699b6d0"/>
+    <sys_element_mapping action="delete_multiple" query="id=38039fff2f3ab110a4f5cc96f699b6d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>38039fff2f3ab110a4f5cc96f699b6d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>b4039fff2f3ab110a4f5cc96f699b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>Remaining PTO: {{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].remaining_pto}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=38039fff2f3ab110a4f5cc96f699b6d0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=38039fff2f3ab110a4f5cc96f699b6d0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=38039fff2f3ab110a4f5cc96f699b6d0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_38039fff2f3ab110a4f5cc96f699b6d0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</action>
+        <cid>3b86f481-9cff-4f2c-bbbe-ee5cbd11bb55</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log sick leave</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>70039fff2f3ab110a4f5cc96f699b6da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=70039fff2f3ab110a4f5cc96f699b6da"/>
+    <sys_element_mapping action="delete_multiple" query="id=70039fff2f3ab110a4f5cc96f699b6da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>70039fff2f3ab110a4f5cc96f699b6da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>bc039fff2f3ab110a4f5cc96f699b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_sick_leave}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=70039fff2f3ab110a4f5cc96f699b6da"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=70039fff2f3ab110a4f5cc96f699b6da"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=70039fff2f3ab110a4f5cc96f699b6da"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_70039fff2f3ab110a4f5cc96f699b6da"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</action>
+        <cid>22b5d980-26e9-4e51-a694-5d0cc4178a21</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log used AOE</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>74039fff2f3ab110a4f5cc96f699b6d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74039fff2f3ab110a4f5cc96f699b6d5"/>
+    <sys_element_mapping action="delete_multiple" query="id=74039fff2f3ab110a4f5cc96f699b6d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>74039fff2f3ab110a4f5cc96f699b6d5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>b0039fff2f3ab110a4f5cc96f699b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[1c482d0c-b51d-4c0f-8edb-ef31df785f8a].used_aoe}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=74039fff2f3ab110a4f5cc96f699b6d5"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=74039fff2f3ab110a4f5cc96f699b6d5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=74039fff2f3ab110a4f5cc96f699b6d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_74039fff2f3ab110a4f5cc96f699b6d5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</action>
+        <cid>1c482d0c-b51d-4c0f-8edb-ef31df785f8a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:19</sys_created_on>
+        <sys_id>a4039fff2f3ab110a4f5cc96f699b668</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4039fff2f3ab110a4f5cc96f699b668"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4039fff2f3ab110a4f5cc96f699b668</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>30039fff2f3ab110a4f5cc96f699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <value/>
+        <variable display_value="aoe">ec039fff2f3ab110a4f5cc96f699b694</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4039fff2f3ab110a4f5cc96f699b668</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>7c039fff2f3ab110a4f5cc96f699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <value/>
+        <variable display_value="duration">6c039fff2f3ab110a4f5cc96f699b69f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4039fff2f3ab110a4f5cc96f699b668</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>b4039fff2f3ab110a4f5cc96f699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var time_off_type = inputs.type;
+  var duration = inputs.duration;
+  
+  var remaining_pto = inputs.pto;
+  var used_aoe = inputs.aoe;
+  var used_sick_leave = inputs.sick_leave;
+  
+  outputs.remaining_pto = remaining_pto;
+  outputs.used_aoe = used_aoe;
+  outputs.used_sick_leave = used_sick_leave;
+  
+  if (time_off_type == "pto") {
+    outputs.remaining_pto = Number(remaining_pto) - Number(duration);
+  } else if (time_off_type == "aoe") {
+  	outputs.used_aoe = Number(used_aoe) + Number(duration);
+  } else if (time_off_type == "sick_leave") {
+  	outputs.used_sick_leave = Number(used_sick_leave) + Number(duration);
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4039fff2f3ab110a4f5cc96f699b668</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>b4039fff2f3ab110a4f5cc96f699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <value/>
+        <variable display_value="pto">a8039fff2f3ab110a4f5cc96f699b66b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4039fff2f3ab110a4f5cc96f699b668</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>f0039fff2f3ab110a4f5cc96f699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4039fff2f3ab110a4f5cc96f699b668</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>f0039fff2f3ab110a4f5cc96f699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <value/>
+        <variable display_value="sick_leave">a4039fff2f3ab110a4f5cc96f699b698</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4039fff2f3ab110a4f5cc96f699b668"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>aoe</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>f8039fff2f3ab110a4f5cc96f699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</table>
+        <value>{{action.employee_info.remaining_aoe}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>bc039fff2f3ab110a4f5cc96f699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>fc039fff2f3ab110a4f5cc96f699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</table>
+        <value>{{action.time_off_record.time_off_duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pto</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>74039fff2f3ab110a4f5cc96f699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</table>
+        <value>{{action.employee_info.remaining_pto}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>70039fff2f3ab110a4f5cc96f699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sick_leave</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>b0039fff2f3ab110a4f5cc96f699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</table>
+        <value>{{action.employee_info.remaining_sick_leave}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>a4039fff2f3ab110a4f5cc96f699b668</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>38039fff2f3ab110a4f5cc96f699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</table>
+        <value>{{action.time_off_record.type}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668^id=a4039fff2f3ab110a4f5cc96f699b668"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a4039fff2f3ab110a4f5cc96f699b668"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a4039fff2f3ab110a4f5cc96f699b668^sys_idNOT IN6c039fff2f3ab110a4f5cc96f699b69b,6c039fff2f3ab110a4f5cc96f699b69f,a4039fff2f3ab110a4f5cc96f699b698,a8039fff2f3ab110a4f5cc96f699b66b,ec039fff2f3ab110a4f5cc96f699b694"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>type</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>6c039fff2f3ab110a4f5cc96f699b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>400</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>6c039fff2f3ab110a4f5cc96f699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sick_leave</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>sick_leave</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>a4039fff2f3ab110a4f5cc96f699b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pto</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>pto</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>a8039fff2f3ab110a4f5cc96f699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>aoe</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>aoe</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>ec039fff2f3ab110a4f5cc96f699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a4039fff2f3ab110a4f5cc96f699b668^sys_idNOT INe0039fff2f3ab110a4f5cc96f699b6b0,f0039fff2f3ab110a4f5cc96f699b6b4,f8039fff2f3ab110a4f5cc96f699b6b7"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=dbfa2b82-6806-44f5-b92b-962662a531e8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remaining_pto</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Remaining PTO</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>e0039fff2f3ab110a4f5cc96f699b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=b86f4ed5-70df-4eee-850b-e32be3fd681e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_aoe</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used AOE</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>f0039fff2f3ab110a4f5cc96f699b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=edcea9c9-efe6-4b9b-aadd-c4873e70bed3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_sick_leave</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used Sick Leave</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a4039fff2f3ab110a4f5cc96f699b668</model>
+        <model_id>a4039fff2f3ab110a4f5cc96f699b668</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>f8039fff2f3ab110a4f5cc96f699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a4039fff2f3ab110a4f5cc96f699b668"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668^sys_idNOT IN34039fff2f3ab110a4f5cc96f699b6b3,3c039fff2f3ab110a4f5cc96f699b6b6,f8039fff2f3ab110a4f5cc96f699b6c6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remaining_pto</element>
+        <help/>
+        <hint/>
+        <label>Remaining PTO</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>34039fff2f3ab110a4f5cc96f699b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_aoe</element>
+        <help/>
+        <hint/>
+        <label>Used AOE</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>3c039fff2f3ab110a4f5cc96f699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_sick_leave</element>
+        <help/>
+        <hint/>
+        <label>Used Sick Leave</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a4039fff2f3ab110a4f5cc96f699b668</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>f8039fff2f3ab110a4f5cc96f699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=a8039fff2f3ab110a4f5cc96f699b658^sys_idNOT IN2c039fff2f3ab110a4f5cc96f699b661,e8039fff2f3ab110a4f5cc96f699b65b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=bb398b1e-f15d-4517-a9db-648a4aa76731</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1122522_pfc_employee_info</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>employee_info</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Employee Info</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1122522_pfc_employee_info">x_1122522_pfc_employee_info</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:19</sys_created_on>
+        <sys_id>2c039fff2f3ab110a4f5cc96f699b661</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c039fff2f3ab110a4f5cc96f699b661"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e55af47b-6a7f-4aa9-9775-65d1858f04b3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1122522_pfc_time_off</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>time_off_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Time Off Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1122522_pfc_time_off">x_1122522_pfc_time_off</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:19</sys_created_on>
+        <sys_id>e8039fff2f3ab110a4f5cc96f699b65b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e8039fff2f3ab110a4f5cc96f699b65b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a8039fff2f3ab110a4f5cc96f699b658^sys_idNOT IN2e4417732f7ab110a4f5cc96f699b68f,6a4417732f7ab110a4f5cc96f699b696,9a4417732f7ab110a4f5cc96f699b688,b0039fff2f3ab110a4f5cc96f699b6df,b8039fff2f3ab110a4f5cc96f699b6e3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f61fe25c-f4a0-4958-845f-18865d832d3d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_aoe</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used AOE</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>2e4417732f7ab110a4f5cc96f699b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2e4417732f7ab110a4f5cc96f699b68f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e4417732f7ab110a4f5cc96f699b68f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=71f0b1b2-b98a-42bc-8364-13f4c032b4a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>used_sick_leave</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Used Sick Leave</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>6a4417732f7ab110a4f5cc96f699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6a4417732f7ab110a4f5cc96f699b696"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a4417732f7ab110a4f5cc96f699b696"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=03468638-549e-4f0a-8fb5-0e3e5496df4a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remaining_pto</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Remaining PTO</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>9a4417732f7ab110a4f5cc96f699b688</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9a4417732f7ab110a4f5cc96f699b688"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9a4417732f7ab110a4f5cc96f699b688"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e1f0296e-7202-4da7-9940-fd17336cd554</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:20</sys_created_on>
+        <sys_id>b0039fff2f3ab110a4f5cc96f699b6df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b0039fff2f3ab110a4f5cc96f699b6df"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b0039fff2f3ab110a4f5cc96f699b6df"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=509f10f5-306c-43fd-9266-a983137c0110,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</model>
+        <model_id>a8039fff2f3ab110a4f5cc96f699b658</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>b8039fff2f3ab110a4f5cc96f699b6e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8039fff2f3ab110a4f5cc96f699b6e3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8039fff2f3ab110a4f5cc96f699b6e3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a8039fff2f3ab110a4f5cc96f699b658"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a8039fff2f3ab110a4f5cc96f699b658^sys_idNOT INb4039fff2f3ab110a4f5cc96f699b6f9"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get employee time off info">a8039fff2f3ab110a4f5cc96f699b658</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>b4039fff2f3ab110a4f5cc96f699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=b4039fff2f3ab110a4f5cc96f699b6f9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a8039fff2f3ab110a4f5cc96f699b658^sys_idNOT IN24039fff2f3ab110a4f5cc96f699b666,6c039fff2f3ab110a4f5cc96f699b660"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>employee_info</element>
+        <help/>
+        <hint/>
+        <label>Employee Info</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:19</sys_created_on>
+        <sys_id>24039fff2f3ab110a4f5cc96f699b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>time_off_record</element>
+        <help/>
+        <hint/>
+        <label>Time Off Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:19</sys_created_on>
+        <sys_id>6c039fff2f3ab110a4f5cc96f699b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a8039fff2f3ab110a4f5cc96f699b658"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658^sys_idNOT IN2a4417732f7ab110a4f5cc96f699b699,6e4417732f7ab110a4f5cc96f699b692,74039fff2f3ab110a4f5cc96f699b6e8,e24417732f7ab110a4f5cc96f699b68c,f8039fff2f3ab110a4f5cc96f699b6e2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_sick_leave</element>
+        <help/>
+        <hint/>
+        <label>Used Sick Leave</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>2a4417732f7ab110a4f5cc96f699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>used_aoe</element>
+        <help/>
+        <hint/>
+        <label>Used AOE</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>6e4417732f7ab110a4f5cc96f699b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>74039fff2f3ab110a4f5cc96f699b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remaining_pto</element>
+        <help/>
+        <hint/>
+        <label>Remaining PTO</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:13:55</sys_created_on>
+        <sys_id>e24417732f7ab110a4f5cc96f699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:13:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:08:21</sys_created_on>
+        <sys_id>f8039fff2f3ab110a4f5cc96f699b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:08:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a8039fff2f3ab110a4f5cc96f699b658"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>264207bf2ff6b110a4f5cc96f699b659</sys_id>
+        <latest_snapshot>a8039fff2f3ab110a4f5cc96f699b658</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

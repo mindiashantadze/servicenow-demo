@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:57:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c63ed33faf7ab110326870e998d70336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>m2m_app_config_theme_c63ed33faf7ab110326870e998d70336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:57:21</sys_updated_on>
+        <theme display_value="Starter Workspace Theme">ca3ed33f967ab110707c6324cde80134</theme>
+        <ux_app_configuration display_value="">4a3ed33f187ab110fe70a6606ef5533a</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>m2m_app_config_theme_c63ed33faf7ab110326870e998d70336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 08:57:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c63ed33faf7ab110326870e998d70336</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>m2m_app_config_theme_c63ed33faf7ab110326870e998d70336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 08:57:21</sys_updated_on><theme display_value="Starter Workspace Theme">ca3ed33f967ab110707c6324cde80134</theme><ux_app_configuration display_value="">4a3ed33f187ab110fe70a6606ef5533a</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>1101643170</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d44bc532f323110a4f5cc96f699b63e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-12-04 07:17:51</sys_created_on>
+        <sys_id>7e2d233f2fbab110a4f5cc96f699b606</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18c33b0c1180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Theme</type>
+        <update_guid>3e2d233f7dbab110cfb03bc1b3d1a406</update_guid>
+        <update_guid_history>3e2d233f7dbab110cfb03bc1b3d1a406:1101643170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f22d233f2fbab110a4f5cc96f699b608</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 10:02:37</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>0b698430bdc948d89fd3a515cd74d840</sys_id>
+        <sys_metadata>c63ed33faf7ab110326870e998d70336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_c63ed33faf7ab110326870e998d70336</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_c63ed33faf7ab110326870e998d70336">7e2d233f2fbab110a4f5cc96f699b606</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 10:02:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

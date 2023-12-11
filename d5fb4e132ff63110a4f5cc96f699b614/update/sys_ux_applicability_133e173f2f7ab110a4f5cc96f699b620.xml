@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1122522_pfc.Audience for app peopleforce-clone-manager-workspace</api_name>
+        <description/>
+        <name>Audience for app peopleforce-clone-manager-workspace</name>
+        <roles name="x_1122522_pfc.resource_manager">672f461b2f3a3110a4f5cc96f699b6d1</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 08:57:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>133e173f2f7ab110a4f5cc96f699b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app peopleforce-clone-manager-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_ux_applicability_133e173f2f7ab110a4f5cc96f699b620</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:57:24</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

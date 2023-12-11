@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2022-05-29 16:29:20</created_on>
+        <dashboard display_value="PeopleForce Clone">ad5857638efa711058c8644c351d074d</dashboard>
+        <last_updated_on>2023-12-06 09:06:30</last_updated_on>
+        <requested_by_user/>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 13:53:08</sys_created_on>
+        <sys_id>e158576381fa711051076e2d09d78a54</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_e158576381fa711051076e2d09d78a54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:06:30</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</application>
+        <file_path/>
+        <instance_id>1261ed4bdbb5cc5452cec5970596199c</instance_id>
+        <instance_name>dev96420</instance_name>
+        <name>par_dashboard_user_metadata_e158576381fa711051076e2d09d78a54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2022-05-29 16:29:20</created_on><dashboard display_value="PeopleForce Clone">ad5857638efa711058c8644c351d074d</dashboard><last_updated_on>2023-12-06 09:06:30</last_updated_on><requested_by_user/><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 13:53:08</sys_created_on><sys_id>e158576381fa711051076e2d09d78a54</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope><sys_update_name>par_dashboard_user_metadata_e158576381fa711051076e2d09d78a54</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 09:06:30</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>1940858383</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d5fb4e132ff63110a4f5cc96f699b616</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:06:31</sys_created_on>
+        <sys_id>b450abbf2f7ab110a4f5cc96f699b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3e60f6060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:06:31</sys_updated_on>
+        <type>PAR Dashboard User Metadata</type>
+        <update_guid>fc50abbf177ab1105d5939e2841c360b</update_guid>
+        <update_guid_history>fc50abbf177ab1105d5939e2841c360b:1940858383,4b5897635afa7110e1194bde180d7781:-1603089559,475897632efa71101c61300d6af18580:260796265</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">21baab7b2fbab110a4f5cc96f699b6b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 09:51:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>3a44f5f3cf0d465a9af17ebb9f17bfa4</sys_id>
+        <sys_metadata>e158576381fa711051076e2d09d78a54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_scope_delete display_value="">5f99692cc56e4040a77ff879d8fa9000</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_e158576381fa711051076e2d09d78a54</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_e158576381fa711051076e2d09d78a54">b450abbf2f7ab110a4f5cc96f699b60c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 09:51:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
