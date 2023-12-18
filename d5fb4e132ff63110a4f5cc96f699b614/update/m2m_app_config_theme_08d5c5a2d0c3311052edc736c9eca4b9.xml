@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">00d5c5a212c3311035513bb701e80bb9</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-14 10:54:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08d5c5a2d0c3311052edc736c9eca4b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>m2m_app_config_theme_08d5c5a2d0c3311052edc736c9eca4b9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-14 10:54:45</sys_updated_on>
+        <theme display_value="Light Theme">80d5c5a2dfc331103ae63e7dec6c68b9</theme>
+        <ux_app_configuration display_value="PeopleForce Clone Portal Config">ffc5c5a22fc33110a4f5cc96f699b68a</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

@@ -49,6 +49,7 @@
 		}
 		
 		current.setValue("time_off_duration", durationInDays);
+		current.update();
 	} else {
 		gs.addErrorMessage("There is no employee info present");
 		current.setAbortAction(true);
@@ -60,15 +61,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad0af9e72f767110a4f5cc96f699b639</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>PTO Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
         <sys_policy/>
         <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
         <sys_update_name>sys_script_ad0af9e72f767110a4f5cc96f699b639</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-06 06:42:25</sys_updated_on>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2023-12-18 09:35:01</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

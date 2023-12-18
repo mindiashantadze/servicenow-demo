@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">40d5c5a2d2c33110cc3ea9be03061cae</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">84d5c5a2f7c33110f6f4d7d68fbcbead</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-14 10:54:49</sys_created_on>
+        <sys_id>0cd5c5a28ac33110fe1727559f7801ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_0cd5c5a28ac33110fe1727559f7801ad</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-14 10:54:49</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

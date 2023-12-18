@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b50c42972f3a3110a4f5cc96f699b6fe" label="Employee Info" max_length="40" name="x_1122522_pfc_employee_info" text_index="true" type="collection">
+        <element label="Birth date" max_length="40" name="birth_date" type="glide_date"/>
         <element label="City" max_length="40" name="city" type="string"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="string"/>

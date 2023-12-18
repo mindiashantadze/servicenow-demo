@@ -3,8 +3,8 @@
         <active>true</active>
         <copied_from/>
         <description>Insert a record into 'x_1122522_pfc_time_off' with the following values:
-To = 2023-12-15
-and From = 2023-12-07
+To = 2023-12-22
+and From = 2023-12-18
 and Type = AOE
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
@@ -17,14 +17,14 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-07 13:02:22</sys_created_on>
         <sys_id>f35f51502f433510a4f5cc96f699b6b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
         <sys_policy/>
         <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
         <sys_update_name>sys_atf_step_f35f51502f433510a4f5cc96f699b6b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-07 13:02:22</sys_updated_on>
+        <sys_updated_on>2023-12-18 07:34:58</sys_updated_on>
         <table>x_1122522_pfc_time_off</table>
         <test display_value="Test time off flow">368e99102f433510a4f5cc96f699b614</test>
         <timeout/>
@@ -53,10 +53,10 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-07 13:02:23</sys_created_on>
         <sys_id>71ef9d502f433510a4f5cc96f699b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-07 13:02:23</sys_updated_on>
-        <value>to=2023-12-15^from=2023-12-07^type=aoe^EQ</value>
+        <sys_updated_on>2023-12-18 07:34:58</sys_updated_on>
+        <value>to=2023-12-22^from=2023-12-18^type=aoe^EQ</value>
         <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

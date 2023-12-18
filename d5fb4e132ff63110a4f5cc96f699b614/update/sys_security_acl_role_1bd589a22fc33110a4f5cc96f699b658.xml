@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-14 10:54:56</sys_created_on>
+        <sys_id>1bd589a22fc33110a4f5cc96f699b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1122522_pfc.time_off_user</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">d5fb4e132ff63110a4f5cc96f699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">d5fb4e132ff63110a4f5cc96f699b614</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_1bd589a22fc33110a4f5cc96f699b658</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-14 10:54:56</sys_updated_on>
+        <sys_user_role display_value="x_1122522_pfc.time_off_user" name="x_1122522_pfc.time_off_user">87391e1f2f3a3110a4f5cc96f699b652</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
